@@ -1,0 +1,71 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1761402862500,
+      "hash": "0000c2df5d643a3fd5b2c6c7a0b780ee4522024ca0abd61f725d55927ab83f04",
+      "previousHash": "0",
+      "nonce": 97855,
+      "transactions": [],
+      "merkleRoot": "0"
+    },
+    {
+      "index": 1,
+      "timestamp": 1761402862838,
+      "hash": "0000b30a1073254e125c0aeb323a67028ec74d4c2ce381c93d65903660dedfe2",
+      "previousHash": "0000c2df5d643a3fd5b2c6c7a0b780ee4522024ca0abd61f725d55927ab83f04",
+      "nonce": 33231,
+      "transactions": [
+        {
+          "sender": "Alice",
+          "recipient": "Bob",
+          "transactionId": "9f3278946552377401c24867f8c14dc99a9ea09a099980b81d00414d19bd9fca",
+          "amount": 50.0,
+          "timeStamp": 1761402862823
+        },
+        {
+          "sender": "Bob",
+          "recipient": "Charlie",
+          "transactionId": "b80ba1c15b28cee9016fc6488dd73040b45195f45bcb59ee77a9c005b0a3b22c",
+          "amount": 25.0,
+          "timeStamp": 1761402862837
+        },
+        {
+          "sender": "Charlie",
+          "recipient": "Dave",
+          "transactionId": "f2ad7236d7792ac49a633d4c914fad97af8470f3a716062661037f3415910510",
+          "amount": 10.0,
+          "timeStamp": 1761402862837
+        }
+      ],
+      "merkleRoot": "185b02821052d3a48ab4b95e1552112847f440118b5d173d0290d39fb5b899a6"
+    },
+    {
+      "index": 2,
+      "timestamp": 1761402862914,
+      "hash": "0000784e618697acda165cb0f040253c19dc0d272811adf3643022eae5317a70",
+      "previousHash": "0000b30a1073254e125c0aeb323a67028ec74d4c2ce381c93d65903660dedfe2",
+      "nonce": 10312,
+      "transactions": [
+        {
+          "sender": "Dave",
+          "recipient": "Eve",
+          "transactionId": "1274c921f1660a76fdf94aedd84c9aceb89b928357af207c618742195bf38e33",
+          "amount": 15.0,
+          "timeStamp": 1761402862913
+        },
+        {
+          "sender": "Eve",
+          "recipient": "Frank",
+          "transactionId": "f2a032529f713a9e161780eadc7e5659ca2082e171f53d303e8e0de5b7f0808b",
+          "amount": 8.0,
+          "timeStamp": 1761402862913
+        }
+      ],
+      "merkleRoot": "3374e05d36dabeaedf7ef186dfe53517ea74139175997a3212c2e007a5c7e456"
+    }
+  ],
+  "difficulty": 4,
+  "chainLength": 3,
+  "isValid": true
+}

@@ -1,0 +1,33 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1761403117472,
+      "hash": "00000f48196c44d6519747d1ee31594eab4b587874ecb7ad1dade0bb165d67e1",
+      "previousHash": "0",
+      "nonce": 556579,
+      "transactions": [],
+      "merkleRoot": "0"
+    },
+    {
+      "index": 1,
+      "timestamp": 1761403221300,
+      "hash": "000001201b4febe642fe5b54315caf843a8fa61e571d76d0d871106a432af72c",
+      "previousHash": "00000f48196c44d6519747d1ee31594eab4b587874ecb7ad1dade0bb165d67e1",
+      "nonce": 83492,
+      "transactions": [
+        {
+          "sender": "Yadnyesh Khawane",
+          "recipient": "Shravika Wandhare",
+          "transactionId": "2006fdf68594b77fe0c6143132b324cd2d00a332fc3c63e0be125a5ece83e5f1",
+          "amount": 1050.0,
+          "timeStamp": 1761403303300
+        }
+      ],
+      "merkleRoot": "bc25c7e61ae4adf248c1c51497e350d2c0d4ce1116673eb99b358108ccc3c316"
+    }
+  ],
+  "difficulty": 5,
+  "chainLength": 2,
+  "isValid": true
+}

@@ -362,11 +362,14 @@ public class Block {
      */
     @Override
     public String toString() {
+        String hashShort = hash.length() < 16 ? hash : hash.substring(0, 16);
+        String prevHashShort = previousHash.length() < 16 ? previousHash : previousHash.substring(0, 16);
         return "Block #" + index + " [" +
-                "hash=" + hash.substring(0, 16) + "..." +
-                ", prevHash=" + previousHash.substring(0, 16) + "..." +
+                "hash=" + hashShort + "..." +
+                ", prevHash=" + prevHashShort + "..." +
                 ", txCount=" + transactions.size() +
                 ", nonce=" + nonce +
                 "]";
     }
+
 }
